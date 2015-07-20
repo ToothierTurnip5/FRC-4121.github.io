@@ -18,6 +18,12 @@ footer > .row {
   padding-bottom: 1em; 
 }
 
+.row-image {
+	-webkit-box-shadow: inset 0px 0px 41px 0px rgba(0,0,0,0.82);
+    -moz-box-shadow: inset 0px 0px 41px 0px rgba(0,0,0,0.82);
+    box-shadow: inset 0px 0px 41px 0px rgba(0,0,0,0.82);
+}
+
 /* Navbar styling */
 .clearnav {
     background: transparent;
@@ -88,7 +94,7 @@ footer > .row {
     font-weight: 700;
 }
 
-#jumbotron-home > .container > h1 > small {
+#jumbotron-home > .container > h1 > small, #jumbotron-home > .container > h1 > small > a{
     color: #fff;
     font-weight: 500;
 }
@@ -110,7 +116,7 @@ footer > .row {
 
 /* About Jumbotron */
 #jumbotron-about {
-  height: 90vh;
+  height: 20vh;
   background-color: #777; /* Temp background */
 }
 
